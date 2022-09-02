@@ -20,7 +20,7 @@ public class Main {
                 counts.highCount++;
             } else if (cycle < 400) {
                 counts.lowCount++;
-            } else if (cycle > 400 && cycle < 919{
+            } else if (cycle > 400 && cycle < 919){
                 counts.mediumCount++;
             }
         }
