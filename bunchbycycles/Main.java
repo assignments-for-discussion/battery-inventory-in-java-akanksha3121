@@ -12,6 +12,8 @@ public class Main {
     static CountsByUsage countBatteriesByUsage(int[] cycles) {
         CountsByUsage counts = new CountsByUsage();
 
+        
+//Running foreach on int[] cycles here cycle represent's a single value 
         for (int cycle : cycles
         ) {
             if (cycle >= 920) {
